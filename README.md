@@ -1,15 +1,15 @@
-Proyecto Final de Backend
+Proyecto Final Backend:
 
-1- Dentro del profile de cada usuario registrado se podra ver la opción de UploadFiles y Admin Controller.
+1- Dentro del perfil de cada usuario registrado, se podrá ver la opción de "Upload Files" y "Admin Controller".
 
-2- Solo los user pueden agregar productos al carrito y realizar compras, si se intenta agregar productos al carrito o acceder al carrito siendo admin dara error, los usuarios premium no pueden agregar sus productos al carrito.
+2- Solo los usuarios pueden agregar productos al carrito y realizar compras. Si se intenta agregar productos al carrito o acceder al carrito siendo administrador, dará error. Los usuarios premium no pueden agregar sus productos al carrito.
 
-3- Si se intenta eliminar usuarios siendo user o premium no se lograra.
+3- Si se intenta eliminar usuarios siendo usuario o premium, no se logrará.
 
-4- Si se intenta crear productos nuevos siendo user no se podra, solo los usuarios premium y admin estan autorizados para cargar productos
+4- Si se intenta crear productos nuevos siendo usuario, no se podrá. Solo los usuarios premium y administradores están autorizados para cargar productos.
 
 5- Para obtener todos los usuarios: /api/users
 
 6- Para eliminar usuarios inactivos: /api/users/inactive
 
-7- En la ruta /apidocs se podra obtener informacion de la documentacion para carts y products
+7- En la ruta /apidocs, se podrá obtener información de la documentación para carts y products.
