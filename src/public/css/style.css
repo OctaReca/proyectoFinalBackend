@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family-Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+body{
+    background-color: antiquewhite;
+}
+
+.shopContent {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    font-family: arial;
+}
+
+.card img {
+    width: 175px;
+    height: 250px;
+}
+
+.button {
+    align-items: flex-start;
+    background-color: #212529;
+    border-color: #212529;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: system-ui;
+    line-height: 24px;
+    padding: 10px 20px;
+    margin-top: 10%;
+    margin-right: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.panel-admin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.panel-admin h1 {
+    color: #886F6F;
+    padding: 5%;
+}
+
+.panel-admin-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#uploadForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #F8F6F4;
+    padding: 5%;
+}
+
+#uploadForm input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    border-radius: 30px;
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+#uploadPremiumForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #F8F6F4;
+    padding: 5%;
+}
+
+#uploadPremiumForm input {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(173, 173, 173);
+    border-radius: 30px;
+    margin: 10px 0;
+    color: black;
+    font-size: .8em;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.btn-uploads {
+    border: none;
+    background-color: black;
+    color: #FFF;
+    width: 150px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.cont-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.container-forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+}
+
+.form--submit:hover {
+    color: #639;
+    background-color: white;
+    border: 1px dashed #639;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form--submit {
+    width: 50%;
+    padding: 0.625em;
+    border-radius: 5px;
+    color: white;
+    background-color: #639;
+    border: 1px dashed #639;
+    cursor: pointer;
+}

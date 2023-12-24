@@ -1,0 +1,46 @@
+.productForm {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.productForm input {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 15px;
+    width: auto;
+}
+
+.productForm button {
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: #FFF;
+    padding: 5px;
+    margin-left: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.productForm ::placeholder {
+    text-align: center;
+}
+
+.container-forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    gap: 5%;
+}
+
+
