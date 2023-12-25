@@ -3,7 +3,7 @@
   "name": "desafio-entregable-2",
   "version": "1.0.0",
   "description": "",
-  "main": "ProductManager.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "mocha test/supertest.test.js"
@@ -50,6 +50,9 @@
   },
   "devDependencies": {
     "@faker-js/faker": "^8.2.0",
-    "nodemon": "^3.0.1"
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0",
+    "nodemon": "^3.0.1",
+    "supertest": "^6.3.3"
   }
 }
