@@ -3,9 +3,9 @@
   "name": "desafio-entregable-2",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "ProductManager.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node src/app.js",
     "test": "mocha test/supertest.test.js"
   },
   "keywords": [],
