@@ -13,3 +13,5 @@ Proyecto Final Backend:
 6- Para eliminar usuarios inactivos: /api/users/inactive
 
 7- En la ruta /apidocs, se podrá obtener información de la documentación para carts y products.
+
+8- Proyecto desplegado: proyectofinalbackend-production-f241.up.railway.app
